@@ -22,8 +22,8 @@
         // change the document title
       
         // use the history object to wipe out the url 
-        history.pushState("", document.title, "/contact");
-        document.title="Contact"
+        // history.pushState("", document.title, "/contact");
+        // document.title="Contact"
 
         // use the location object to output my pathname
         console.log(location.pathname);
